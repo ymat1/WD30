@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        header {
+            background-color: antiquewhite;
+            height: 70px;
+            border: 1px solid black;
+        }
+        nav {
+            background-color: gainsboro;
+            height: 50px;
+            border: 1px solid black;
+        }
+        article {
+            background-color: powderblue;
+            width: 70%;
+            float: left;
+            height: 1200px;
+            border: 1px solid black;
+        }
+        aside {
+            background-color: lightcoral;
+            width: 30%;
+            float: left;
+            height: 1200px;
+            border: 1px solid black;
+        }
+        footer {
+            background-color: lightgreen;
+            height: 100px;
+            clear: both;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Semantic HTML</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+    </nav>
+    
+    <main>
+
+        <article>
+            <h2>Title of my blog</h2>
+            <section>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nam mollitia iste ex fugit! Aperiam non, voluptatibus error repellendus tempore aliquam ducimus. Reiciendis ipsa architecto alias laboriosam laborum voluptatum voluptate.</p>
+            </section>
+            <section>
+                <figure>
+                    <img src="../img/img_girl.jpg" alt="Picture of a Girl">
+                    <figcaption>Girl Picture</figcaption>
+                </figure>
+            </section>
+        
+            <section>
+                <video controls autoplay muted >
+                    <!-- possible to have multiple sources -->
+                    <source src="../vid/planet.mp4" type="video/mp4" />Your browser does not support this video.
+                </video>
+            </section>
+            <section>
+                <audio controls>
+                    <!-- possible to have multiple sources -->
+                    <source src="../aud/audio.mp3" type="audio/mp3" />Your browser does not support this audio.
+                </audio>
+            </section>
+
+        </article>
+
+        <aside>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae tempore, perferendis neque saepe doloremque dolores quos eveniet numquam quaerat, repellendus eligendi, temporibus reiciendis nesciunt nihil. Doloribus id commodi voluptatibus fugit?</p>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>Email me at matbarrameda@gmail.com</p>
+        <p>Copyright 2022</p>
+    </footer>
+
+</body>
+</html>

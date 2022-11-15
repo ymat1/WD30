@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+</head>
+<body>
+    <form>
+
+        <table>
+
+            <tr>
+                <th colspan="2">
+                    <h1>Registration Form</h1>
+                </th>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="firstName">First Name: </label>
+                </td>
+                <td>
+                    <input type="text" name="fistName" id="firstName" placeholder="First Name">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="middleName">Middle Name: </label>
+                </td>
+                <td>
+                    <input type="text" name="middleName" id="middleName" placeholder="Middle Name">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="lastName">Last Name: </label>
+                </td>
+                <td>
+                    <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="address">Address: </label>
+                </td>
+                <td>
+                    <textarea name="address" id="address" rows="2" style="width:100%" placeholder="e.g. #056 Parola St. San Andres Cainta Rizal PH"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Gender:
+                </td>
+                <td>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male" value="Male">
+
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" value="Female">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Career Path:
+                </td>
+                <td>
+                    <select name="dropdown" id="dropdown">
+                        <option selected disabled>Please Select</option>
+                        <option value="frontend">Front-end Developer</option>
+                        <option value="backend">Back-end Developer</option>
+                        <option value="fullstack">Full-stack Developer</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Technical Skills:
+                </td>
+                <td>
+                    <input type="checkbox" name="techSkills" id="html" value="HTML">
+                    <label for="html">HTML</label>
+                    
+                    <input type="checkbox" name="techSkills" id="css" value="CSS">
+                    <label for="css">CSS</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="techSkills" id="js" value="JavaScript">
+                    <label for="js">JavaScript</label>
+                    
+                    <input type="checkbox" name="techSkills" id="sql" value="MySQL">
+                    <label for="sql">MySQL</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>        
+                    <input type="checkbox" name="techSkills" id="php" value="PHP">
+                    <label for="php">PHP</label>
+                    
+                    <input type="checkbox" name="techSkills" id="lrv" value="Laravel">
+                    <label for="lrv">Laravel</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>       
+                    <input type="checkbox" name="techSkills" id="rjs" value="React JS">
+                    <label for="rjs">React JS</label>
+                </td>
+            </tr>
+
+            <tr align="center">
+                <td colspan="2">
+                    <input type="submit" value="Submit" style="width:100%">
+                </td>
+            </tr>
+            
+        </table>
+
+    </form>
+</body>
+</html>
