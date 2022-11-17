@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header,
+footer {
+    /* vh = viewport height */
+    /* vw = viewport width */
+    height: 10vh;
+    padding: 10px;
+    background-color: yellowgreen;
+}
+
+main {
+    display: flex;
+    height: 80vh;
+}
+
+nav {
+    background-color: lightpink;
+    width: 20%;
+    padding: 10px;
+}
+
+article {
+    background-color: beige;
+    width: 60%;
+    padding: 10px;
+}
+
+aside {
+    background-color: lightskyblue;
+    width: 20%;
+    padding: 10px;
+}
