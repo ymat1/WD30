@@ -33,9 +33,6 @@ article {
 }
 .container {
     display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    /* align-content: center; */
     column-gap: 30px;
 }
 .flex-left {
@@ -44,17 +41,25 @@ article {
 .field {
     display: flex;
     align-items: center;
-    margin-bottom: 5px;
+    margin: 20px;
 }
 .field input,select {
     flex: 1;
     padding: 5px;
-    margin: 0 0 10px 10px;
+    margin: 0 0 0 10px;
 }
 .flex-right {
+    flex: 1;
     width: 30%;
+    margin: 20px;
 }
-
+.pref {
+    padding: 0 0 20px 0;
+}
+.selection {
+    /* margin: 5px 0 5px 0; */
+    padding: 5px 0 5px 0;
+}
 .btn-container {
     text-align: center;
     margin-top: 20px;
