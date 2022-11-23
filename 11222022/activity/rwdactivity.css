@@ -4,7 +4,6 @@
 
 body {
     margin: 0 200px 0 200px;
-    min-width: 240px;
 }
 
 .container {
@@ -69,6 +68,12 @@ p {
 .box3 {
     grid-column: 3 / 4;
     grid-row: 1 / 2;
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        margin: 0 50px 0 50px;
+    }
 }
 
 /* laptop */
