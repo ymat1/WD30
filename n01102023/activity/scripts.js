@@ -6,24 +6,24 @@ let calculation = [];
 let inputs;
 
 function calculate(button) {
-    const value = button.textContent;
+    const value = button.innerText;
     if(value === 'CLEAR') {
         calculation = [];
-        operand.textContent = '';
-        result.textContent = '0';
+        operand.innerText = '';
+        result.innerText = '0';
     }
     else if(value === 'DEL') {
         calculation.pop(value);
         inputs = calculation.join('');
-        operand.textContent = inputs;
+        operand.innerText = inputs;
     }
     else if(value === "=") {
-        result.textContent = eval(inputs);
+        result.innerText = eval(inputs);
     }
     else {
         calculation.push(value);
         inputs = calculation.join('');
-        operand.textContent = inputs;
+        operand.innerText = inputs;
     }
 }
 
@@ -31,7 +31,7 @@ buttons.forEach(
     button => button.addEventListener(
         'click',
         () => {
-            result.textContent = '';
+            result.innerText = '';
             calculate(button);
         }
     )
