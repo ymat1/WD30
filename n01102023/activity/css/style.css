@@ -47,26 +47,26 @@ div.container button {
     grid-column: span 2;
 }
 
-.dark-gray {
+.operators {
     color: white;
     background-color: #4c4c4c;
 }
-.dark-gray:hover {
+.operators:hover {
     background-color: #5c5c5c;
 }
 
-.light-gray {
+.numbers {
     color: white;
     background-color: #5c5c5c;
 }
-.light-gray:hover {
+.numbers:hover {
     background-color: #4c4c4c;
 }
 
-.blue {
+.equal {
     color: black;
     background-color: #8bc1e5;
 }
-.blue:hover {
+.equal:hover {
     background-color: #64b1e4;
 }
