@@ -4,7 +4,7 @@
 
 /* #2e2f2f */
 
-.container {
+.calculator {
     display: grid;
     justify-content: center;
     align-content: center;
@@ -13,29 +13,22 @@
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 }
 
-.output {
+.display {
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     grid-column: 1 / -1;
     color: white;
+    font-size: 34px;
     background-color: #2e2f2f;
     border-radius: 5px;
     padding: 10px;
     word-wrap: break-word;
     word-break: break-all;
 }
-.operand {
-    color: lightgray;
-    font-size: 26px;
-}
-.result {
-    color: white;
-    font-size: 34px;
-}
 
-div.container button {
+button {
     cursor: pointer;
     font-size: 30px;
     border: 1px solid white;
@@ -47,19 +40,25 @@ div.container button {
     grid-column: span 2;
 }
 
-.operators {
+.operator,
+.clear,
+.delete {
     color: white;
     background-color: #4c4c4c;
 }
-.operators:hover {
+.operator:hover,
+.clear:hover,
+.delete:hover {
     background-color: #5c5c5c;
 }
 
-.numbers {
+.number, 
+.decimal {
     color: white;
     background-color: #5c5c5c;
 }
-.numbers:hover {
+.number:hover,
+.decimal:hover {
     background-color: #4c4c4c;
 }
 
