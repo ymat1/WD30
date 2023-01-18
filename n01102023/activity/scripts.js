@@ -61,9 +61,9 @@ calculator.addEventListener(
             clear();
         }
         else if(e.target.classList.contains('delete')) {
-            // del = () => {
-        
-            // }
+            del = () => {
+                // display.innerText = display.innerText.slice(0, -1);
+            }
             del();
         }
         else if(e.target.classList.contains('decimal')) {
